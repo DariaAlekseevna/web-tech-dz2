@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Clear Sans';
+	src: url('../fonts/clear_sans.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/clear_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/clear_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/clear_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/clear_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/clear_sans.svg#clear_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}

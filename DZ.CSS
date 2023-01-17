@@ -1,0 +1,70 @@
+html{
+    font-size: 25px;
+    background-color: #ccf5452c;
+    font-family: 'Clear Sans';
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ccf54556;
+    padding: 0 20px 20px 20px;
+
+}
+
+img{
+    width: 700px;
+    display: block;
+    margin: auto;
+    border: 2px solid #CDF545;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h1, h2, h3{
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 2px #CDF545;
+    font-family: 'Reef Bold';
+    color: #7A1EA8;
+}
+
+p {
+    color: #71900e;
+    width: 900px;
+}
+
+a {
+    color: #CA61FF;
+}
+
+ol, ul{
+    border: 3px solid #CDF545;
+    color: #4b1368;
+}
+
+@font-face {
+	font-family: 'Clear Sans';
+	src: url('sources/fonts/clear_sans.eot'); /* IE 9 Compatibility Mode */
+	src: url('sources/fonts/clear_sans.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('sources/fonts/clear_sans.woff2') format('woff2'), /* Super Modern Browsers */
+		url('sources/fonts/clear_sans.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('sources/fonts/clear_sans.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('sources/fonts/clear_sans.svg#clear_sans') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Reef Bold';
+	src: url('sources/fonts/reef_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('sources/fonts/reef_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('sources/fonts/reef_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('sources/fonts/reef_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('sources/fonts/reef_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('sources/fonts/reef_bold.svg#reef_bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
